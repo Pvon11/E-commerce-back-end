@@ -3,8 +3,6 @@ const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection.js");
 
 class Tag extends Model {}
-// step 3 finish this model
-// go to models/index.js for step 4
 
 Tag.init(
   {
